@@ -9,6 +9,10 @@ previous_search_result = []
 app = Flask(__name__)
 
 
+def Commit():
+    pass
+
+
 @app.route("/Search2/Authorization/OwnerMode", methods=["GET", "POST"])
 def Owner_mode():
     Colunm_list = ["Item_Number", "Supply_number", "Clients_number", "Product_type_number",
